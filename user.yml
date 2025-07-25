@@ -4,7 +4,7 @@
   tasks:
     - name: user creation task
       ansible.builtin.user:
-        name: user1
+        name: john
         state: present
       
     
