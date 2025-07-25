@@ -1,0 +1,10 @@
+---
+- name: user creation play
+  hosts: dev
+  tasks:
+    - name: user creation task
+      ansible.builtin.user:
+        name: user1
+        state: present
+      
+    
